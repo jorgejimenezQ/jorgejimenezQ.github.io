@@ -1,0 +1,59 @@
+.emojiMation {
+  font-size: calc(100px + 4vw);
+}
+
+.emojiMation::after {
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.moon {
+  --moon1: '\1F311';
+  --moon2: '\1F312';
+  --moon3: '\1F313';
+  --moon4: '\1F314';
+  --moon5: '\1F315';
+  --moon6: '\1F316';
+  --moon7: '\1F317';
+  --moon8: '\1F318';
+}
+
+.moon::after {
+  content: var(--moon1);
+  animation-name: moon;
+  animation-duration: 0.9s;
+}
+
+@keyframes moon {
+  12.5% {
+    content: var(--moon1);
+  }
+
+  25% {
+    content: var(--moon2);
+  }
+
+  37.5% {
+    content: var(--moon3);
+  }
+
+  50% {
+    content: var(--moon4);
+  }
+
+  62.5% {
+    content: var(--moon5);
+  }
+
+  75% {
+    content: var(--moon6);
+  }
+
+  87.5% {
+    content: var(--moon7);
+  }
+
+  100% {
+    content: var(--moon8);
+  }
+}
