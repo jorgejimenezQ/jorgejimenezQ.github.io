@@ -1,5 +1,5 @@
 .emojiMation {
-  font-size: calc(100px + 4vw);
+  font-size: calc(20px);
 }
 
 .emojiMation::after {
