@@ -1,0 +1,18 @@
+@import 'box';
+@import 'flex';
+@import 'header';
+
+@mixin space-between {
+  justify-content: space-between;
+}
+
+@mixin space-around {
+  justify-content: space-around;
+}
+
+.space-around {
+  @include space-around;
+}
+.space-between {
+  @include space-between;
+}

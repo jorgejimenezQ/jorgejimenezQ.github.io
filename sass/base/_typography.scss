@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300&display=swap');
+
+@mixin heeboFont {
+  font-family: 'Heebo', sans-serif;
+}
+
+@mixin bold {
+  font-weight: 600;
+}
+
+.bold {
+  @include bold;
+}
+
+// Map for font sizes
+$font-sizes: (
+  'xs': 12px,
+  'sm': 14px,
+  'md': 16px,
+  'lg': 18px,
+  'xl': 20px,
+  'xxl': 24px,
+  'xxxl': 28px,
+  'grande': 32px,
+  'grandote': 36px,
+  'grandisimo': 56px,
+);
+
+// Iterate through the map and create a class for each font size
+
+@each $size, $value in $font-sizes {
+  .font-#{$size} {
+    font-size: $value !important;
+  }
+}

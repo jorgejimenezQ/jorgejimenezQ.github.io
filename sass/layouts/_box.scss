@@ -1,0 +1,18 @@
+$boxPaddingX: calc(#{$s16px} * 10);
+
+@mixin box {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 $s16px;
+}
+
+.box {
+  @include box;
+}
+
+// add extra padding on tablet and up
+@media screen and (min-width: $breakpoint-tablet) {
+  .box {
+    padding: 0 $s48px;
+  }
+}

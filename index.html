@@ -8,9 +8,211 @@
     <title>Document</title>
   </head>
   <body>
-    <h1>Hello There</h1>
-    <div class="emojiMation moon"></div>
+    <header class="flex">
+      <div class="box w-full flex-center-h">
+        <menu class="nav">
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#killers">Time Killers</a></li>
+          <li><a href="#resume">Resume</a></li>
+        </menu>
+      </div>
+      <div>
+        <h1 class="font-grandisimo text-white">Jorge Jimenez</h1>
+        <p>Software engineer, web developer</p>
+      </div>
+    </header>
+    <main>
+      <div class="box flex-center-h">
+        <div class="about-me p-top sm-w--half w-full">
+          <h2 class="m-bottom" id="about">About Me</h2>
+          <p class="m-bottom">
+            I am a full stack developer with experience in Angular, Node, Express, and MongoDB.I am
+            also familiar with React, Redux, and Firebase and PHP, C#, and Python on the backend. I
+            am a fast learner with a passion for learning and I am always looking for new
+            challenges. Check out my projects below.
+          </p>
+        </div>
+      </div>
+      <div class="box bg-200 p-top--large p-bottom--large">
+        <h2 class="m-bottom" id="projects">My Projects</h2>
+      </div>
+      <div class="box bg-200 space-between">
+        <div class="card m-bottom">
+          <div class="card-title m-bottom-lg">
+            <h3>Marketplace</h3>
+          </div>
+          <div class="card-body">
+            <p class="card-text">
+              An online selling shop (e.g., OfferUp, Varagesale). The site uses JWT authentication
+              to allow users to post products to sell. Users can post, edit, and delete their
+              products. It is built using Angular, Node, Express, and MongoDB. It is also deployed
+              on Heroku.
+            </p>
+            <dl class="m-bottom">
+              <dt class="desc-title text-500">Technologies used:</dt>
+              <dd class="desc-data">Angular, Node, Express, and MongoDB</dd>
+            </dl>
+          </div>
+          <div class="box p-x--none">
+            <div class="button m-right">
+              <a href="https://jorge-marketplace.web.app/" class="button-link" target="_blank"></a>
+              Live Demo
+            </div>
+            <div class="button-demo m-right">
+              <a
+                href="https://github.com/jorgejimenezQ/angular-marketplace"
+                class="button-link"
+                target="_blank"
+              ></a>
+              GitHub
+            </div>
+          </div>
+        </div>
+        <div class="card m-bottom">
+          <div class="card-title m-bottom-large">
+            <h3>Marketplace REST API</h3>
+          </div>
+          <div class="card-body">
+            <p class="card-text">
+              The REST API used with the Marketplace application. I made it using Node, Express,
+              MongooseJS, and OpenAPI Specification. I used JWT to handle the authentication and the
+              API can handle uploading and saving images.
+            </p>
+            <dl class="m-bottom">
+              <dt class="desc-title"><span class="bold">Technologies used</span></dt>
+              <dd class="desc-data">NodeJS, Express, OpenAPIS, and MongooseJS</dd>
+            </dl>
+          </div>
+          <div class="box p-x--none">
+            <div class="button m-right">
+              <a
+                href="https://jorge-marketplace-api.herokuapp.com/api/docs"
+                class="button-link"
+                target="_blank"
+              ></a>
+              API Docs
+            </div>
+            <div class="button-demo m-right">
+              <a
+                href="https://github.com/jorgejimenezQ/Marketplace-rest-api"
+                class="button-link"
+                target="_blank"
+              ></a>
+              GitHub
+            </div>
+          </div>
+        </div>
+        <div class="card m-bottom">
+          <div class="card-title m-bottom-lg">
+            <h3>NES Emulator</h3>
+          </div>
+          <div class="card-body">
+            <p class="card-text">
+              I successfully emulated an NES's CPU and PPU with Java. I was able to implement a
+              couple mappers for older nintendo games as well as pass all the
+              <a href="https://jorge-marketplace-api.herokuapp.com/api/docs"> blargg's tests.</a>. I
+              also made a GUI for the emulator using Java Swing. I used low level programming and I
+              learned a lot about how processors work.
+            </p>
+            <dl class="m-bottom">
+              <dt class="desc-title text-500">Technologies used:</dt>
+              <dd class="desc-data">
+                Java, Bitwise Operations, Software Engineering Algorithms and Structures
+              </dd>
+            </dl>
+          </div>
+          <div class="box p-x--none">
+            <div class="button-demo m-right">
+              <a
+                href="https://github.com/jorgejimenezQ/NES-Architechture"
+                class="button-link"
+                target="_blank"
+              ></a>
+              GitHub
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="box bg-white p-top--large p-bottom--large">
+        <h2 class="m-bottom" id="killer">Smaller Practice Projects</h2>
+      </div>
+      <div class="box bg-white space-between">
+        <div class="card m-bottom">
+          <div class="card-title m-bottom-large">
+            <h3>Little Boxes</h3>
+          </div>
+          <div class="card-body">
+            <p class="card-text">
+              A challenge to demonstrate the use of CSS and Sass. It is just a drawing, but it is
+              made completely with HTML, CSS, and Sass.
+            </p>
+            <dl class="m-bottom">
+              <dt class="desc-title"><span class="bold">Technologies used</span></dt>
+              <dd class="desc-data">HTML, CSS, and Sass</dd>
+            </dl>
+          </div>
+          <div class="box p-x--none">
+            <div class="button m-right">
+              <a href="./projects/little-boxes/index.html" class="button-link" target="_blank"></a>
+              Live Demo
+            </div>
+          </div>
+        </div>
+        <div class="card m-bottom">
+          <div class="card-title m-bottom-large">
+            <h3>Pong Game</h3>
+          </div>
+          <div class="card-body">
+            <p class="card-text">A Pong clone. Made with HTML 5, JS.</p>
+            <dl class="m-bottom">
+              <dt class="desc-title"><span class="bold">Technologies used</span></dt>
+              <dd class="desc-data">HTML, CSS, and JavaScript</dd>
+            </dl>
+          </div>
+          <div class="box p-x--none">
+            <div class="button m-right">
+              <a href="./projects/pong/index.html" class="button-link" target="_blank"></a>
+              Live Demo
+            </div>
+          </div>
+        </div>
+        <div class="card m-bottom">
+          <div class="card-title m-bottom-lg">
+            <h3>Ray Casting Demo</h3>
+          </div>
+          <div class="card-body">
+            <p class="card-text">
+              A ray casting demo using P5.js JavaScript library. Ray casting is a way of rendering
+              3D models by casting ray
+            </p>
+            <dl class="m-bottom">
+              <dt class="desc-title text-500">Technologies used:</dt>
+              <dd class="desc-data">JavaScript and P5.js Library</dd>
+            </dl>
+          </div>
+          <div class="box p-x--none">
+            <div class="button-demo m-right">
+              <a
+                href="https://github.com/jorgejimenezQ/NES-Architechture"
+                class="button-link"
+                target="_blank"
+              ></a>
+              GitHub
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="box bg-200 p-top--large p-bottom--large">
+        <h2 class="m-bottom" id="contact">Contact Me</h2>
+      </div>
 
-    <a href="./little-boxes/">BOXES</a>
+      <div id="resume" class="box bg-200">
+        <!-- embed pdf with download link -->
+        <embed src="./assets/JorgeJimenez.pdf" type="application/pdf" width="100%" height="100%" />
+      </div>
+    </footer>
   </body>
 </html>

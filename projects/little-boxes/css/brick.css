@@ -1,0 +1,262 @@
+*, *:before, *:after {
+	-webkit-box-sizing: border-box !important;
+	-moz-box-sizing: border-box !important;
+	-ms-box-sizing: border-box !important;
+	box-sizing: border-box !important;
+}
+
+.row-brick{
+	position: fixed;
+	width:  200px;
+	height: 50px;
+	top: 604px;
+	left: 0px;
+}
+
+.row-brick-1{
+	position: fixed;
+	width:  200px;
+	height: 50px;
+	top: 604px;
+	left: 200px;
+}
+.row-brick-2{
+	position: fixed;
+	width:  200px;
+	height: 50px;
+	top: 604px;
+	left: 400px;
+}
+.row-brick-3{
+	position: fixed;
+	width:  200px;
+	height: 50px;
+	top: 604px;
+	left: 600px;
+}
+.row-brick-4{
+	position: fixed;
+	width:  200px;
+	height: 50px;
+	top: 604px;
+	left: 800px;
+}
+.row-brick-5{
+	position: fixed;
+	width:  200px;
+	height: 50px;
+	top: 604px;
+	left: 1000px;
+}
+.row-brick-6{
+	position: fixed;
+	width:  200px;
+	height: 50px;
+	top: 604px;
+	left: 1200px;
+}
+.row-brick-7{
+	position: fixed;
+	width:  200px;
+	height: 50px;
+	top: 604px;
+	left: 1400px;
+}
+.row-brick-8{
+	position: fixed;
+	width:  200px;
+	height: 50px;
+	top: 604px;
+	left: 1600px;
+}
+.row-brick-9{
+	position: fixed;
+	width:  200px;
+	height: 50px;
+	top: 604px;
+	left: 1800px;
+}
+.row-brick-10{
+	position: fixed;
+	width:  200px;
+	height: 50px;
+	top: 604px;
+	left: 2000px;
+}
+.row-brick-11{
+	position: fixed;
+	width:  200px;
+	height: 50px;
+	top: 604px;
+	left: 2200px;
+}
+
+.brick{
+	position: fixed;
+	width:  200px;
+	height: 50px;
+	top: 554px;
+	left: 0px;
+}
+
+.brick-1{
+	position: fixed;
+	width:  200px;
+	height: 50px;
+	top: 554px;
+	left: 200px;
+}
+.brick-2{
+	position: fixed;
+	width:  200px;
+	height: 50px;
+	top: 554px;
+	left: 400px;
+}
+.brick-3{
+	position: fixed;
+	width:  200px;
+	height: 50px;
+	top: 554px;
+	left: 600px;
+}
+.brick-4{
+	position: fixed;
+	width:  200px;
+	height: 50px;
+	top: 554px;
+	left: 800px;
+}
+.brick-5{
+	position: fixed;
+	width:  200px;
+	height: 50px;
+	top: 554px;
+	left: 1000px;
+}
+.brick-6{
+	position: fixed;
+	width:  200px;
+	height: 50px;
+	top: 554px;
+	left: 1200px;
+}
+.brick-7{
+	position: fixed;
+	width:  200px;
+	height: 50px;
+	top: 554px;
+	left: 1400px;
+}
+.brick-8{
+	position: fixed;
+	width:  200px;
+	height: 50px;
+	top: 554px;
+	left: 1600px;
+}
+.brick-9{
+	position: fixed;
+	width:  200px;
+	height: 50px;
+	top: 554px;
+	left: 1800px;
+}
+.brick-10{
+	position: fixed;
+	width:  200px;
+	height: 50px;
+	top: 554px;
+	left: 2000px;
+}
+.brick-11{
+	position: fixed;
+	width:  200px;
+	height: 50px;
+	top: 554px;
+	left: 2200px;
+}
+
+.brick-row{
+	position: relative;
+	background-color: #8ccaec;
+	width:  100%;
+	height: 25%;
+}
+
+.brick-column{
+	float:left;
+	height: 100%;
+	width: 6.25%;
+}
+
+/*row1*/
+#brick-row-1 #brick-col-1{background-color:#d92b1c;}
+#brick-row-1 #brick-col-2{background-color:#d92b1c;}
+#brick-row-1 #brick-col-3{background-color:#f4d7b6;}
+#brick-row-1 #brick-col-4{background-color:#f4d7b6;}
+#brick-row-1 #brick-col-5{background-color:#f4d7b6;}
+#brick-row-1 #brick-col-6{background-color:#f4d7b6;}
+#brick-row-1 #brick-col-7{background-color:#f4d7b6;}
+#brick-row-1 #brick-col-8{background-color:#f4d7b6;}
+#brick-row-1 #brick-col-9{background-color:#f4d7b6;}
+#brick-row-1 #brick-col-10{background-color:#f4d7b6;}
+#brick-row-1 #brick-col-11{background-color:#000;}
+#brick-row-1 #brick-col-12{background-color:#d92b1c;}
+#brick-row-1 #brick-col-13{background-color:#f4d7b6;}
+#brick-row-1 #brick-col-14{background-color:#f4d7b6;}
+#brick-row-1 #brick-col-15{background-color:#f4d7b6;}
+#brick-row-1 #brick-col-16{background-color:#f4d7b6;}
+
+/*row2*/
+#brick-row-2 #brick-col-1{background-color:#000;}
+#brick-row-2 #brick-col-2{background-color:#f4d7b6;}
+#brick-row-2 #brick-col-3{background-color:#d92b1c;}
+#brick-row-2 #brick-col-4{background-color:#d92b1c;}
+#brick-row-2 #brick-col-5{background-color:#d92b1c;}
+#brick-row-2 #brick-col-6{background-color:#d92b1c;}
+#brick-row-2 #brick-col-7{background-color:#d92b1c;}
+#brick-row-2 #brick-col-8{background-color:#d92b1c;}
+#brick-row-2 #brick-col-9{background-color:#d92b1c;}
+#brick-row-2 #brick-col-10{background-color:#d92b1c;}
+#brick-row-2 #brick-col-11{background-color:#000;}
+#brick-row-2 #brick-col-12{background-color:#f4d7b6;}
+#brick-row-2 #brick-col-13{background-color:#d92b1c;}
+#brick-row-2 #brick-col-14{background-color:#d92b1c;}
+#brick-row-2 #brick-col-15{background-color:#d92b1c;}
+#brick-row-2 #brick-col-16{background-color:#d92b1c;}
+
+/*row3*/
+#brick-row-3 #brick-col-1{background-color:#000;}
+#brick-row-3 #brick-col-2{background-color:#f4d7b6;}
+#brick-row-3 #brick-col-3{background-color:#d92b1c;}
+#brick-row-3 #brick-col-4{background-color:#d92b1c;}
+#brick-row-3 #brick-col-5{background-color:#d92b1c;}
+#brick-row-3 #brick-col-6{background-color:#d92b1c;}
+#brick-row-3 #brick-col-7{background-color:#d92b1c;}
+#brick-row-3 #brick-col-8{background-color:#d92b1c;}
+#brick-row-3 #brick-col-9{background-color:#d92b1c;}
+#brick-row-3 #brick-col-10{background-color:#d92b1c;}
+#brick-row-3 #brick-col-11{background-color:#000;}
+#brick-row-3 #brick-col-12{background-color:#f4d7b6;}
+#brick-row-3 #brick-col-13{background-color:#d92b1c;}
+#brick-row-3 #brick-col-14{background-color:#d92b1c;}
+#brick-row-3 #brick-col-15{background-color:#d92b1c;}
+#brick-row-3 #brick-col-16{background-color:#d92b1c;}
+/*row4*/
+#brick-row-4 #brick-col-1{background-color:#000;}
+#brick-row-4 #brick-col-2{background-color:#f4d7b6;}
+#brick-row-4 #brick-col-3{background-color:#d92b1c;}
+#brick-row-4 #brick-col-4{background-color:#d92b1c;}
+#brick-row-4 #brick-col-5{background-color:#d92b1c;}
+#brick-row-4 #brick-col-6{background-color:#d92b1c;}
+#brick-row-4 #brick-col-7{background-color:#d92b1c;}
+#brick-row-4 #brick-col-8{background-color:#d92b1c;}
+#brick-row-4 #brick-col-9{background-color:#d92b1c;}
+#brick-row-4 #brick-col-10{background-color:#d92b1c;}
+#brick-row-4 #brick-col-11{background-color:#000;}
+#brick-row-4 #brick-col-12{background-color:#f4d7b6;}
+#brick-row-4 #brick-col-13{background-color:#d92b1c;}
+#brick-row-4 #brick-col-14{background-color:#d92b1c;}
+#brick-row-4 #brick-col-15{background-color:#d92b1c;}
+#brick-row-4 #brick-col-16{background-color:#d92b1c;}

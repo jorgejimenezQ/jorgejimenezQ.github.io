@@ -1,0 +1,26 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  // remove the default list style and add hover and focus styles
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    a {
+      display: block;
+      padding: $s16px;
+      text-decoration: none;
+      color: $gray100;
+      &:hover,
+      &:focus {
+        // add a background color to the link when hovered over or focused with transition animation
+        background-color: $gray300;
+        color: $gray900;
+        transition: background-color 0.3s ease;
+      }
+    }
+  }
+}
