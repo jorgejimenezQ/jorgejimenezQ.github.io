@@ -1,8 +1,11 @@
 header {
   text-align: center;
-  height: 300px;
   background-color: $gray700;
   color: $gray300;
+  .name-container {
+    width: 100%;
+    height: 300px;
+  }
 }
 
 header.flex {
