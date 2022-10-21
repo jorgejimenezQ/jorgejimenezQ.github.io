@@ -8,3 +8,14 @@ body,
   // @include inter-400;
   @include font('inter', 400);
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+ul {
+  padding-left: 0;
+  li {
+    list-style-position: inside;
+  }
+}

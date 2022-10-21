@@ -45,7 +45,7 @@ $font-sizes: (
   'xxxl': 28px,
   'grande': 32px,
   'grandote': 36px,
-  'grandisimo': 56px,
+  'grandisimo': 42px,
 );
 
 // Iterate through the map and create a class for each font size
@@ -53,5 +53,33 @@ $font-sizes: (
 @each $size, $value in $font-sizes {
   .font-#{$size} {
     font-size: $value !important;
+  }
+}
+
+// map for line heights
+$line-heights: (
+  '1': 16px,
+  '2': 18px,
+  '3': 20px,
+  '4': 22px,
+  '5': 24px,
+  '6': 28px,
+  '7': 32px,
+  '8': 36px,
+  '9': 40px,
+  '10': 44px,
+  '11': 48px,
+);
+
+// Iterate through the map and create a class for each line height size as well as a responsive version of each (e.g. .sm-line-height--lg)
+
+@each $size, $value in $line-heights {
+  .line-height-#{$size} {
+    line-height: $value !important;
+  }
+  @media screen and (min-width: $breakpoint-tablet) {
+    .sm-line-height-#{$size} {
+      line-height: $value !important;
+    }
   }
 }

@@ -38,9 +38,9 @@ $spacing: (
   'x--none': 0,
   'y--none': 0,
 
-  '--large': $largeSpacing,
-  '--small': $smallSpacing,
-  '--none': 0,
+  '-large': $largeSpacing,
+  '-small': $smallSpacing,
+  '-none': 0,
 );
 
 // For each of the spacings create a margin and padding class
