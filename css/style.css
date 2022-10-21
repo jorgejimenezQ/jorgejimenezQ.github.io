@@ -1069,6 +1069,18 @@ header.flex {
   justify-content: space-between;
 }
 
+.align-center {
+  align-items: center;
+}
+
+.align-end {
+  align-items: flex-end;
+}
+
+.align-start {
+  align-items: flex-start;
+}
+
 .card {
   display: flex;
   flex-wrap: wrap;
@@ -1139,7 +1151,7 @@ header.flex {
   padding: 0.5rem 1rem;
   position: relative;
   border: solid 1px;
-  max-height: 40px;
+  max-height: 32px;
   margin-bottom: 1rem;
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 }
@@ -1169,7 +1181,7 @@ header.flex {
   padding: 0.5rem 1rem;
   position: relative;
   border: solid 1px;
-  max-height: 40px;
+  max-height: 32px;
   margin-bottom: 1rem;
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 }
