@@ -83,3 +83,12 @@ $line-heights: (
     }
   }
 }
+
+// mixin for letter spacing and another for line height
+@mixin letter-spacing($letter-spacing) {
+  letter-spacing: $letter-spacing;
+}
+
+@mixin line-height($line-height) {
+  line-height: $line-height;
+}

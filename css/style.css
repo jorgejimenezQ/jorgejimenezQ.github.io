@@ -1088,6 +1088,7 @@ header.flex {
   width: 100%;
 }
 .card .card-body {
+  line-height: 2rem;
   width: 100%;
 }
 .card .card-body .card-text {
@@ -1140,6 +1141,7 @@ header.flex {
   border: solid 1px;
   max-height: 40px;
   margin-bottom: 1rem;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 }
 .button:hover {
   color: #f3f4f6;
@@ -1154,6 +1156,11 @@ header.flex {
   width: 100%;
   height: 100%;
 }
+.button:hover {
+  background-color: #1f2937 !important;
+  color: #f3f4f6 !important;
+  border-color: #f9fafb !important;
+}
 
 .button-demo {
   color: #1f2937;
@@ -1164,6 +1171,7 @@ header.flex {
   border: solid 1px;
   max-height: 40px;
   margin-bottom: 1rem;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 }
 .button-demo:hover {
   color: #f3f4f6;
@@ -1177,6 +1185,11 @@ header.flex {
   left: 0;
   width: 100%;
   height: 100%;
+}
+.button-demo:hover {
+  background-color: #1f2937 !important;
+  color: #f3f4f6 !important;
+  border-color: #f9fafb !important;
 }
 
 .nav {

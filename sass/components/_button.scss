@@ -30,6 +30,8 @@
     width: 100%;
     height: 100%;
   }
+
+  @include bg-color-animation($hover-background-color, $hover-color, $hover-border-color);
 }
 
 .button {

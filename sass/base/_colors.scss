@@ -42,3 +42,14 @@ $bg-colors: (
 @mixin border-color($color) {
   border-color: $color !important;
 }
+
+// Mixin for background color, color, and border color smooth animation on hover
+@mixin bg-color-animation($bg-color, $color, $border-color) {
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out,
+    border-color 0.2s ease-in-out;
+  &:hover {
+    background-color: $bg-color !important;
+    color: $color !important;
+    border-color: $border-color !important;
+  }
+}
