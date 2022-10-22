@@ -14,6 +14,15 @@ const numOfRays = WIDTH / wallWidth
 const MAP_SCALER = 0.2
 
 var grid = new WorldMap(numOfCols, numOfRows, tileSize, true)
+grid.addWall(400, 500)
+grid.addWall(420, 500)
+grid.addWall(430, 500)
+grid.addWall(440, 500)
+grid.addWall(450, 500)
+grid.addWall(400, 510)
+grid.addWall(400, 520)
+grid.addWall(400, 540)
+grid.addWall(400, 580)
 var player = new Player(WIDTH / 2, HEIGHT / 2, grid)
 var rays = []
 
@@ -29,6 +38,7 @@ function update() {
   // Add remove walls.
   if (keyIsDown(CONTROL)) {
     grid.addWall(mouseX, mouseY)
+    console.log(mouseX + ' ' + mouseY)
   }
 
   if (keyIsDown(SHIFT)) {
@@ -100,7 +110,7 @@ function render3d() {
   for (var i = 0; i < numOfRays; i++) {
     var ray = rays[i]
     var rayDist = ray.wallHitDist
-    console.log(player.rotationAngle)
+    // console.log(player.rotationAngle)
     rayDist *= Math.cos(ray.angle - player.rotationAngle)
 
     var distProjPlane = WIDTH / 2 / Math.tan(FOVAngle / 2)
