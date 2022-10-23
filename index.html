@@ -8,7 +8,7 @@
     <title>Document</title>
   </head>
   <body>
-    <header class="flex">
+    <header class="flex" role="banner">
       <div class="box w-full flex-center-h m-top">
         <menu class="nav">
           <li><a href="#about">About</a></li>
@@ -24,7 +24,7 @@
         </div>
       </div>
     </header>
-    <main>
+    <main role="main content">
       <div class="box flex-center-h">
         <div class="about-me p-top w-full">
           <h2 class="m-bottom" id="about">About Me</h2>
@@ -86,18 +86,20 @@
             </dl>
           </div>
           <div class="box p-x--none align-end">
-            <button class="button m-right inter-800">
-              <a href="https://jorge-marketplace.web.app/" class="button-link" target="_blank"></a>
+            <a
+              href="https://jorge-marketplace.web.app/"
+              class="button m-right inter-600 button-link"
+              target="_blank"
+            >
               Live Demo
-            </button>
-            <button class="button-demo m-right inter-800">
-              <a
-                href="https://github.com/jorgejimenezQ/angular-marketplace"
-                class="button-link"
-                target="_blank"
-              ></a>
+            </a>
+            <a
+              href="https://github.com/jorgejimenezQ/angular-marketplace"
+              class="button-demo m-right inter-600 button-link"
+              target="_blank"
+            >
               GitHub
-            </button>
+            </a>
           </div>
         </div>
         <div class="card m-bottom">
@@ -116,22 +118,20 @@
             </dl>
           </div>
           <div class="box p-x--none align-end">
-            <button class="button m-right inter-800">
-              <a
-                href="https://jorge-marketplace-api.herokuapp.com/api/docs"
-                class="button-link"
-                target="_blank"
-              ></a>
+            <a
+              href="https://jorge-marketplace-api.herokuapp.com/api/docs"
+              class="button m-right inter-600 button-link"
+              target="_blank"
+            >
               API Docs
-            </button>
-            <button class="button-demo m-right inter-800">
-              <a
-                href="https://github.com/jorgejimenezQ/Marketplace-rest-api"
-                class="button-link"
-                target="_blank"
-              ></a>
+            </a>
+            <a
+              href="https://github.com/jorgejimenezQ/Marketplace-rest-api"
+              class="button-demo m-right inter-600 button-link"
+              target="_blank"
+            >
               GitHub
-            </button>
+            </a>
           </div>
         </div>
         <div class="card m-bottom">
@@ -154,14 +154,13 @@
             </dl>
           </div>
           <div class="box p-x--none align-end">
-            <button class="button-demo m-right inter-800">
-              <a
-                href="https://github.com/jorgejimenezQ/NES-Architechture"
-                class="button-link"
-                target="_blank"
-              ></a>
+            <a
+              href="https://github.com/jorgejimenezQ/NES-Architechture"
+              class="button-demo m-right inter-600 button-link"
+              target="_blank"
+            >
               GitHub
-            </button>
+            </a>
           </div>
         </div>
       </div>
@@ -184,10 +183,13 @@
             </dl>
           </div>
           <div class="box p-x--none align-end">
-            <button class="button m-right inter-800">
-              <a href="./projects/little-boxes/index.html" class="button-link" target="_blank"></a>
+            <a
+              href="./projects/little-boxes/index.html"
+              class="button m-right inter-600 button-link"
+              target="_blank"
+            >
               Live Demo
-            </button>
+            </a>
           </div>
         </div>
         <div class="card m-bottom">
@@ -202,10 +204,13 @@
             </dl>
           </div>
           <div class="box p-x--none align-end">
-            <button class="button m-right inter-800">
-              <a href="./projects/pong/index.html" class="button-link" target="_blank"></a>
+            <a
+              href="./projects/pong/index.html"
+              class="button m-right inter-600 button-link"
+              target="_blank"
+            >
               Live Demo
-            </button>
+            </a>
           </div>
         </div>
         <div class="card m-bottom">
@@ -223,25 +228,29 @@
             </dl>
           </div>
           <div class="box p-x--none align-end">
-            <button class="button-demo m-right inter-800">
-              <a href="./projects/p5_demo/index.html" class="button-link" target="_blank"></a>
+            <a
+              href="./projects/p5_demo/index.html"
+              class="button-demo m-right inter-600 button-link"
+              target="_blank"
+            >
               Live Demo
-            </button>
+            </a>
           </div>
         </div>
       </div>
     </main>
-    <div class="box bg-200 p-top--large p-bottom--large" id="resume">
-      <h2 class="m-bottom m-right--large" id="contact">Contact Me</h2>
-      <button class="button inter-800">
-        <a href="./assets/JorgeJimenez.pdf" class="button-link" target="_blank"></a>
-        Download Resume
-      </button>
-    </div>
+    <footer role="footer">
+      <div class="box bg-200 p-top--large p-bottom--large" id="resume">
+        <h2 class="m-bottom m-right--large" id="contact">Contact Me</h2>
+        <a href="./assets/JorgeJimenez.pdf" class="button inter-600 button-link" target="_blank">
+          Download Resume
+        </a>
+      </div>
 
-    <div id="resume" class="box bg-200">
-      <!-- embed pdf with download link -->
-      <embed src="./assets/JorgeJimenez.pdf" type="application/pdf" width="100%" height="630px" />
-    </div>
+      <div id="resume" class="box bg-200">
+        <!-- embed pdf with download link -->
+        <embed src="./assets/JorgeJimenez.pdf" type="application/pdf" width="100%" height="630px" />
+      </div>
+    </footer>
   </body>
 </html>

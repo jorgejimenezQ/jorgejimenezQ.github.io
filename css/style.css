@@ -1151,8 +1151,8 @@ header.flex {
   padding: 0.5rem 1rem;
   position: relative;
   border: solid 1px;
-  max-height: 32px;
   margin-bottom: 1rem;
+  text-decoration: none;
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 }
 .button:hover {
@@ -1181,8 +1181,8 @@ header.flex {
   padding: 0.5rem 1rem;
   position: relative;
   border: solid 1px;
-  max-height: 32px;
   margin-bottom: 1rem;
+  text-decoration: none;
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 }
 .button-demo:hover {
